@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #171616;
+}
+.vid{
+    position: relative;
+    width: 75vw;
+    height: 100vh;
+
+}
+.con{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
+.con>p{
+    font-size: 3rem;
+    color: aliceblue;
+    font-family: "Playwrite IT Moderna", cursive;
+}

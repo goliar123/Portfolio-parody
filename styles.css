@@ -1,0 +1,125 @@
+body{
+    background-color: #efede9;
+    font-family: "Ubuntu", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playwrite IT Moderna", cursive;
+}
+.head>p{
+    position: absolute;
+    color: #f5f5f5;
+    left: 200px;
+    top: 75px;
+    font-size: 6.5rem;
+    margin: 0px;
+    padding: 0px;
+}
+.head>img{
+    height:110vh;
+    width:100vw; 
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+.nav>p{
+    font-family: "Kanit", sans-serif;
+    margin: 5px;
+    padding: 5px;
+    font-size: 5rem;
+    color: rgb(18, 15, 15);
+}
+.am>p{
+    font-family: "Kanit", sans-serif;
+    font-size: 3rem;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 30px;
+    color: #f8d9fa;
+    padding-top: 10px;
+}
+.m1{
+    margin: 0px;
+    padding: 0px;
+    background-color: #171616;
+}
+.des{
+    font-family: "Roboto", sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.edu{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.edu>li{
+    padding-bottom: 10px;
+    width: 100vw;
+}
+.edu1{
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+    color: whitesmoke;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #f8d9fa;
+    border-radius: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80vh;
+    box-shadow: 0px 0px 5px #f8d9fa;
+    border: 1px #171616;
+}
+.m2{
+    color: whitesmoke;
+    background-color: #171616;
+    margin: 0px;
+    padding: 0px;
+}
+.m21{
+    margin: 0px;
+    font-family: "Kanit", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh;
+    box-shadow: 0px 0px 5px #f8d9fa;
+}
+table{
+    padding: 10px;
+    box-shadow: 0px 0px 5px #f8d9fa;
+}
+table tr{
+    box-shadow: 0px 0px 5px #f8d9fa;
+}
+table td{
+    padding: 5px;
+}
+
+.skills ol{
+    box-shadow: 0px 0px 5px #f8d9fa;
+    padding: 30px;
+    padding-left: 45px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: black;
+}
+.button button{
+    justify-content: center;
+    background-color: #171616;
+    color: #f8d9fa;
+    border-radius: 20px;
+    padding: 20px;
+}
