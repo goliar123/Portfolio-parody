@@ -2,14 +2,8 @@ body{
     margin: 0px;
     padding: 0px;
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     background-color: #171616;
-}
-.vid{
-    position: relative;
-    width: 75vw;
-    height: 100vh;
-
 }
 .con{
     position: absolute;
